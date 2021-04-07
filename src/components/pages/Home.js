@@ -1,12 +1,12 @@
 import '../../App.css';
 import HeaderSection from '../HeaderSection';
-import Cards from '../Cards'
+import BodySection from '../BodySection';
 
 function Home() {
     return(
         <>
             <HeaderSection/>
-            <Cards/>
+            <BodySection/>
         </>
     )
 }
