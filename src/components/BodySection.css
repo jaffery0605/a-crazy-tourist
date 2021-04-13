@@ -1,8 +1,9 @@
 .Body {
-    padding: 4rem;
+    padding: 2rem;
     color: #fff;
-    background: linear-gradient(0deg, rgb(26, 25, 25) 0%, rgb(0, 0, 0) 100%);
+    background: #0C1017;
     border-radius: 10px 10px 0px 0px;
+    z-index: 9999;
   }
   
   .Body > h1 {
@@ -64,7 +65,7 @@
   
   .fade-img {
     animation-name: fade-img;
-    animation-duration: 1s;
+    animation-duration: 2s;
   }
   
   .cards__item__pic-wrap::after {
@@ -77,7 +78,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background:linear-gradient(0deg, rgb(26, 24, 24) 0%, rgb(26, 23, 23) 100%);
+    background:#0C1017;
     box-sizing: border-box;
     border-radius: 10px 10px 0 0;
   }
@@ -127,10 +128,10 @@
     .cards__item {
       margin-bottom: 2rem;
     }
-    @media only screen and (max-width: 760px)
+  }
+    @media only screen and (min-width: 760px)
     {
       .cards{
-        background: linear-gradient(0deg, rgb(29, 28, 28) 0%, rgb(15,16,20) 100%);
+        background: rgb(15,16,20);
       }
     }
-  }

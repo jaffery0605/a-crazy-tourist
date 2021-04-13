@@ -8,6 +8,7 @@ import img4 from '../images/book_a_room.jpg';
 
 function BodySection() {
     return (
+      <>
         <div className='Body'>
         <h1>Lets crazy tourist handle your trip</h1>
         <div className='cards__container'>
@@ -44,6 +45,7 @@ function BodySection() {
           </div>
         </div>
       </div>
+      </>
     );
 }
 
