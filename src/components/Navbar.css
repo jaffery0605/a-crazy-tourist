@@ -8,7 +8,7 @@
     border-radius: 0px 0px 10px 10px;
     position: sticky;
     top: 0;
-    z-index: 990;
+    z-index: 999;
   }
   
   .navbar-container {

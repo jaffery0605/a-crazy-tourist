@@ -23,7 +23,7 @@ function HeaderSection(){
         <div className="hero-container">
             <video src={video?video2:video1} autoPlay loop muted />
             <h1>A Crazy Tourist</h1>
-            <p>Lets we plan your crazy tour</p>
+            <p>We make solo Trips Crazier than Crazier</p>
         </div>
     );
 }
